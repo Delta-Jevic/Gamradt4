@@ -21,4 +21,14 @@ int main()
     queuE.enQueue(9.3);
     queuE.enQueue(0.5);
     queuE.enQueue(9.1);
+    
+    queuE.view();
+    
+    queuE.deQueue(use);
+    queuE.deQueue(use);
+    queuE.deQueue(use);
+
+    queuE.view();
+
+    queuE.~Queue();
 }
