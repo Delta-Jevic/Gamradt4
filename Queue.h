@@ -15,7 +15,7 @@ class Queue {
 
 public:                                                        // exportable
 // General description of each the ADT operations/functions - exportable operations only
-       Queue(...);                                            // replace ... with required arguments
+       Queue(const short value = 3);                           // replace ... with required arguments
        Queue( Queue &);                                        // reuse enQueue & deQueue
        ~Queue();                                               // reuse deQueue 
        void enQueue( const QElement Element);
